@@ -1,0 +1,93 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	background-color: grey;	
+}
+
+.case{
+	width: 123px;
+	height: 123px;
+	border: 1px solid black;
+	display: inline-block;
+	vertical-align: top;
+	text-align: center;
+}
+#over{
+	position: absolute;
+	width: 500px;
+	height: 500px;
+	color: white;
+	display: none;
+}
+
+#grille{
+	margin-left: 40%;
+	background-color: pink;
+	width: 500px;
+	height: 500px;
+	border: 2px solid black;
+}
+
+.rowContainer{
+	display: block;
+	height: 125px;
+}
+
+p{
+	font-size: 40px;
+	line-height: 123px;
+	width: 123px;
+	height: 123px;
+}
+
+#score{
+	font-size: 40px;
+	line-height: 50px;
+	width: auto;
+	height: auto;
+}
+
+#gameover{
+	font-size: 40px;
+	line-height: 500px;
+	margin-left: 150px;
+	width: 500px;
+	height: 500px;
+}
+
+#gamewin{
+	font-size: 40px;
+	line-height: 500px;
+	margin-left: 150px;
+	width: 500px;
+	height: 500px;
+}
+
+#retry{
+	width: 150px;
+	height: 50px;
+	margin-left: 175px;
+	position: absolute;
+	top: 400px;
+	display: none;
+}
+
+#retrywin{
+	width: 150px;
+	height: 50px;
+	margin-left: 175px;
+	position: absolute;
+	top: 400px;
+	display: none;
+}
+
+#win{
+	position: absolute;
+	width: 500px;
+	height: 500px;
+	color: black;
+	display: none;
+}

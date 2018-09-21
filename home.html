@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>2048</title>
+	<link rel="stylesheet" type="text/css" href="stylesheet.css">
+	<script src="http://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script> 
+	<script src="script.js"></script>
+	<meta charset="utf-8">
+
+</head>
+<body>
+	<div >
+		<p id="score">Score : <span id="points">0</span></p>
+	</div>
+	
+	<div id="grille">
+		<div id="over">
+			<p id="gameover"></p>
+			<form action="home.html">
+				<button type="submit" id="retry">Retry</button>
+			</form>
+		</div>
+		<div id="win">
+			<p id="gamewin"></p>
+			<form action="home.html">
+				<button type="submit" id="retrywin">Again</button>
+			</form>
+		</div>
+		<div class="rowContainer" id="ligne1">
+		   <div class="case"><p id="1"></p></div><!--
+		--><div class="case"><p id="2"></p></div><!--
+		--><div class="case"><p id="3"></p></div><!--
+		--><div class="case"><p id="4"></p></div><!--
+	--></div><!--
+-->
+<div class="rowContainer" id="ligne2">
+		   <div class="case"><p id="5"></p></div><!--
+		--><div class="case" ><p id="6"></p></div><!--
+		--><div class="case" ><p id="7"></p></div><!--
+		--><div class="case" ><p id="8"></p></div><!--
+	--></div><!--
+-->
+<div class="rowContainer" id="ligne3">
+		   <div class="case"><p id="9"></p></div><!--
+		--><div class="case"><p id="10"></p></div><!--
+		--><div class="case"><p id="11"></p></div><!--
+		--><div class="case"><p id="12"></p></div><!--
+	--></div><!--
+-->
+<div class="rowContainer" id="ligne4">
+		<div class="case"><p id="13"></p></div><!--
+		--><div class="case"><p id="14"></p></div><!--
+		--><div class="case"><p id="15"></p></div><!--
+		--><div class="case"><p id="16"></p></div><!--
+	--></div><!--
+-->
+</div>
+
+</body>
+</html>
